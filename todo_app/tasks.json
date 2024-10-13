@@ -1,0 +1,62 @@
+[
+    {
+        "model": "todo_app.task",
+        "pk": 1,
+        "fields": {
+            "title": "Buy Bio-Milk for baby",
+            "description": "Get 2% milk from the store",
+            "completed": false,
+            "created_at": "2024-10-13 12:06:15"           
+        }
+    },
+
+
+    {
+        "model": "todo_app.task",
+        "pk": 2,
+        "fields": {
+            "title": "Clean the board",
+            "description": "Dear student, hope you understand!",
+            "completed": true,
+            "created_at": "2024-10-13 12:06:15"            
+        }
+    },
+
+
+    {
+        "model": "todo_app.task",
+        "pk": 3,
+        "fields": {
+            "title": "Don't run in the sun",
+            "description": "The light of sun is dangerous for health",
+            "completed": false,
+            "created_at": "2024-10-13 12:06:15"            
+        }
+    },
+
+
+    {
+        "model": "todo_app.task",
+        "pk": 4,
+        "fields": {
+            "title": "Don't make a noise",
+            "description": "Don't quarrel with each other",
+            "completed": true,
+            "created_at": "2024-10-13 12:06:15"           
+        }
+    },
+
+
+    {
+        "model": "todo_app.task",
+        "pk": 5,
+        "fields": {
+            "title": "Wash the clothes ",
+            "description": "Clean and wash the clothes and shoes",
+            "completed": false,
+            "created_at": "2024-10-13 12:06:15"            
+        }
+
+        
+    }
+]
