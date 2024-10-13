@@ -1,0 +1,34 @@
+{% extends 'layout.html' %}
+
+
+
+{% block content %}
+
+    <h2>{{ title }}</h2>
+
+    <h3>Experimental content</h3>
+
+    <h3>Hello {{ data | capfirst }}</h3>
+    <h3>Hello {{ data | upper }}</h3>
+    <h3>Hello {{ data | lower }}</h3>
+    
+    <h3>{{ greetings }} {{ data | capfirst }}</h3>
+    <h3>{{ greetings }} {{ data | upper }}</h3>
+    <h3>{{ greetings }} {{ data | lower }}</h3>
+    <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem, magni. 
+        Facere vitae esse praesentium ipsum sit fuga minus, eveniet explicabo, 
+        assumenda quidem repellendus earum natus, at nihil. Inventore, optio ut?
+    </p>
+
+    {% load static %}
+    <p>
+    <img src="{% static 'images/django-1.png' %}" alt="">
+    </p>
+{% endblock %}
+
+
+
+{% block title %}
+    Experiment
+{% endblock %}

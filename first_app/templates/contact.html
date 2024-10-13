@@ -1,0 +1,73 @@
+{% extends 'layout.html' %}
+
+
+
+
+{% block content %}
+
+
+    <h2>Contact Us</h2>
+    <h3>Our Email address is : {{ email_address }}</h3>
+    {% load static %}
+    <p>
+        <img src="{% static 'images/django-3.jpeg' %}" alt="">
+    </p>
+    <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem, magni. Facere vitae esse praesentium ipsum sit fuga minus, eveniet explicabo, assumenda quidem repellendus earum natus, at nihil. Inventore, optio ut?
+    </p>
+    <p>
+        Our headquarter is in: 
+
+        {% if hq == "d" %}
+        <strong>Dhaka</strong>
+
+        {% elif hq == "k" %}
+        <strong>Khulna</strong>
+
+        {% elif hq == "r" %}
+        <strong>Rajshahi</strong>
+
+        {% elif hq == "c" %}
+        <strong>Comilla</strong>
+
+        {% elif hq == "j" %}
+        <strong>Jashore</strong>
+
+        {% else %}
+        <strong>Area 51</strong>
+
+        {% endif %}
+    </p>
+    <p>
+        <ol>
+            <h3>Our social profiles are :</h3>
+            {% for profile in socialprofiles %}
+            <li>{{ profile }}</li>
+            {% endfor %}
+        </ol>
+
+        <ul>
+            <h3>Our social profiles are :</h3>
+            {% for profile in socialprofiles %}
+            <li>{{ profile | upper }}</li>
+            {% endfor %}
+        </ul>
+
+        <ol>
+            <h3>Our social profiles are :</h3>
+            {% for profile in socialprofiles %}
+            <li>{{  profile | lower }}</li>
+            {% endfor %}
+        </ol>
+    </p>
+
+
+
+
+{% endblock %}    
+
+
+
+{% block title %}
+    Contact Us
+{% endblock %}
