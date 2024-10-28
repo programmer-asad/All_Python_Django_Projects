@@ -1,0 +1,149 @@
+[
+    {
+        "model": "form_model_app.author",
+        "pk": 1,
+        "fields": {
+            "first_name": "Abu",
+            "last_name": "Talha",
+            "bio": "Bangladeshi Author"
+        }
+    },
+
+    {
+        "model": "form_model_app.author",
+        "pk": 2,
+        "fields": {
+            "first_name": "Daniel ",
+            "last_name": "Defoe",
+            "bio": "Robinson Crusoe"
+        }
+    },
+
+    {
+        "model": "form_model_app.author",
+        "pk": 3,
+        "fields": {
+            "first_name": "John",
+            "last_name": "Bunyan",
+            "bio": "The Pilgrims Progress"
+        }
+    },
+
+    {
+        "model": "form_model_app.author",
+        "pk": 4,
+        "fields": {
+            "first_name": "Jonathan",
+            "last_name": "Swift",
+            "bio": ". Gullivers Travels"
+        }
+    },
+
+    {
+        "model": "form_model_app.author",
+        "pk": 5,
+        "fields": {
+            "first_name": "Samuel",
+            "last_name": "Richardson",
+            "bio": " Clarissa"
+        }
+    },
+
+    {
+        "model": "form_model_app.author",
+        "pk": 6,
+        "fields": {
+            "first_name": "Henry",
+            "last_name": "Fielding",
+            "bio": "Tom Jones"
+        }
+    },
+
+    {
+        "model": "form_model_app.author",
+        "pk": 7,
+        "fields": {
+            "first_name": "Mary",
+            "last_name": "Shelley",
+            "bio": " Frankenstein"
+        }
+    },
+
+    {
+        "model": "form_model_app.book",
+        "pk": 1,
+        "fields": {
+            "title": "Nightmare Abbey",
+            "description": "The great pleasure of Nightmare Abbey, which was inspired by Thomas Love Peacocks",
+            "publication_date": "2024-10-20",
+            "author": 1
+        }
+    },
+
+    {
+        "model": "form_model_app.book",
+        "pk": 2,
+        "fields": {
+            "title": "The Narrative of Arthur Gordon Pym of Nantucket",
+            "description": "Edgar Allan Poes only novel a classic adventure story",
+            "publication_date": "2024-10-21",
+            "author": 2
+        }
+    },
+
+    {
+        "model": "form_model_app.book",
+        "pk": 3,
+        "fields": {
+            "title": "Sybil",
+            "description": "The future prime minister displayed flashes of brilliance that equalled",         
+            "publication_date": "2024-10-18",
+            "author": 3
+        }
+    },
+
+    {
+        "model": "form_model_app.book",
+        "pk": 4,
+        "fields": {
+            "title": "Jane Eyre",
+            "description": "Charlotte Bronts erotic, gothic masterpiece became the",
+            "publication_date": "2024-10-19",
+            "author": 4
+        }
+    },
+
+    {
+        "model": "form_model_app.book",
+        "pk": 5,
+        "fields": {
+            "title": "Wuthering Heights",
+            "description": "Emily Bront windswept masterpiece is notable not just for",
+            "publication_date": "2024-10-17",
+            "author": 5
+        }
+    },
+
+    {
+        "model": "form_model_app.book",
+        "pk": 6,
+        "fields": {
+            "title": "Vanity Fair",
+            "description": "TWilliam Thackeray masterpiece, set in Regency England",
+            "publication_date": "2024-10-16",
+            "author": 6
+        }
+    },
+
+    {
+        "model": "form_model_app.book",
+        "pk": 7,
+        "fields": {
+            "title": "David Copperfield",
+            "description": "David Copperfield marked the point at which Dickens became the great",
+            "publication_date": "2024-10-23",
+            "author": 2
+        }
+    }
+
+]

@@ -1,0 +1,50 @@
+[
+    {
+        "model": "form_model_app.book_author",
+        "fields":{
+            "book_id": 1,
+            "author_id": 1
+        }
+    },
+
+
+    {
+        "model": "form_model_app.book_author",
+        "fields":{
+            "book_id": 2,
+            "author_id": 1
+        }
+    },
+
+    {
+        "model": "form_model_app.book_author",
+        "fields":{
+            "book_id": 3,
+            "author_id": 2
+        }
+    },
+
+    {
+        "model": "form_model_app.book_author",
+        "fields":{
+            "book_id": 4,
+            "author_id": 3
+        }
+    },
+
+    {
+        "model": "form_model_app.book_author",
+        "fields":{
+            "book_id": 5,
+            "author_id": 4
+        }
+    },
+
+    {
+        "model": "form_model_app.book_author",
+        "fields":{
+            "book_id": 6,
+            "author_id":2
+        }
+    }
+]
